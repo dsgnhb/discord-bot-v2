@@ -1,3 +1,14 @@
+# User-specific stuff:
+
+.idea/*
+.settings
+.vscode
+tmp
+coverage
+!typings/.gitkeep
+src/.env
+dist/*
+
 # Logs
 logs
 *.log
@@ -37,7 +48,7 @@ node_modules/
 jspm_packages/
 
 # Typescript v1 declaration files
-typings/
+typings/*
 
 # Optional npm cache directory
 .npm
